@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-![Linear_Reg_Pred_MPG]()
+![Linear_Reg_Pred_MPG.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/Linear_Reg_Pred_MPG.png)
 
 The y-intercept, vehicle_length, and ground_clearance contribute non-random amounts of variance to the linear
 model with the most significant p-values. The vehicle_weight, spoiler_angle, and AWD all have p-values above
@@ -13,8 +13,8 @@ the slope of the linear model will not be zero.
 
 ## Summary Statistics on Suspension Coils
 
-![Total_Summary]()
-![Lot_Summary]()
+![Total_Summary.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/Total_Summary.png)
+![Lot_Summary.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/Lot_Summary.png)
 
 At first glance the MechaCar suspension coils seem to fall under the parameters of not exceeding 100 pds per sq inch of variance.
 However, examing the cars by Lot we see that the third Lot does not meet this requirment and is actually far above the 100 variance limit 
@@ -23,24 +23,24 @@ sitting at 170.2861224. The mean and median of the Lots, however are relatively 
 ##  T-Tests on Suspension Coils
 
 ### All_TTest
-![All_TTest]()
+![All_TTest.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/All_TTest.png)
 Obviously if you sample all of the Suspension coils and compare them against the population mean the p-value is going to be 1. So this t-test
 barely shows us anything.
 ### Sample_TTest
-![Sample_TTest]()
+![Sample_TTest.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/Sample_TTest.png)
 However, taking a random sample from the Suspension coils of 50 and comparing them against the population we get a p-value of .2399563 which
 allows us to conclude there is not a significant difference from the population mean of 1500 pounds per square inch. (Cannot reject null that
 means are statistically similar)
 ### Lot1
-![Lot1_TTest]()
+![Lot1_TTest.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/Lot1_TTest.png)
 Based on Lot 1 it would appear the PSI measurement is statistically different than the 1500 pounds per square inch of the population. The ttest 
 returns with a p-value of 1.568193e-11. Thus, the means are not statistically similar.
 ### Lot2
-![Lot2_TTest]()
+![Lot2_TTest.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/Lot2_TTest.png)
 What was said about Lot 1 can be also said for Lot 2. The t-test returns a p-value of 0.0005911483 which based on the 0.05 significance level allows us
 to reject the null hypothesis that the means are statistically similar. 
 ### Lot3
-![Lot3_TTest]()
+![Lot3_TTest.png](https://github.com/Tbrads325/MechaCar_Statistical_Analysis/blob/main/Images/Lot3_TTest.png)
 Lot 3 p-value returned from the ttest has a value of 0.1589092 which is not statistically significant based on the 0.05 significance level and thus we 
 cannot reject the null hypothesis. 
 
